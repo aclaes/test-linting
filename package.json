@@ -8,11 +8,15 @@
     "preview": "vite preview",
     "htmlhint": "npx htmlhint \"**/*.html\"",
     "prettier:check": "npx prettier --check .",
-    "prettier:write": "npx prettier --write ."
+    "prettier:write": "npx prettier --write .",
+    "stylelint": "npx stylelint \"**/*.css\""
   },
   "devDependencies": {
     "htmlhint": "^1.1.3",
     "prettier": "^2.6.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
     "vite": "^2.9.0"
   }
 }
