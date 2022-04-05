@@ -6,10 +6,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "htmlhint": "npx htmlhint \"**/*.html\""
+    "htmlhint": "npx htmlhint \"**/*.html\"",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write ."
   },
   "devDependencies": {
     "htmlhint": "^1.1.3",
+    "prettier": "^2.6.2",
     "vite": "^2.9.0"
   }
 }
