@@ -5,4 +5,5 @@ document.querySelector('#app').innerHTML = `
   <p>Test</p>
   <p>Test  2</p>
   <p>Test  3</p>
+  <p>Test  4</p>
 `;
